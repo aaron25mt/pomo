@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Timer from './components/timer.js';
+
 import 'react-bootstrap';
 import './App.css';
 
@@ -28,6 +30,7 @@ class App extends Component {
 
         <div class="container">
           <div class="innerContainer">
+            <Timer />
           </div>
         </div>
       </div>
