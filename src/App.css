@@ -1,3 +1,11 @@
 .info {
 	padding: 40px 15px;
 }
+
+.modal-container {
+	position: relative;
+}
+
+.modal-container .modal, .modal-container .modal-backdrop {
+	position: absolute;
+}
